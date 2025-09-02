@@ -1,0 +1,7 @@
+Enable Jenkins Service
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+Get Initial Admin password
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
